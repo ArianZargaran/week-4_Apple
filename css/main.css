@@ -1,0 +1,52 @@
+/* line 1, _styleGuide.scss */
+:root {
+  font-family: "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif; }
+
+/* line 5, main.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 1, _a-header.scss */
+.a-header {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8); }
+
+/* line 1, _a-nav.scss */
+.a-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  max-width: 978px; }
+  /* line 7, _a-nav.scss */
+  .a-nav .a-nav_item {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 48px;
+    padding: 0 10px; }
+    @media only screen and (min-width: 765.01px) {
+      /* line 7, _a-nav.scss */
+      .a-nav .a-nav_item {
+        height: 48px; }
+        /* line 15, _a-nav.scss */
+        .a-nav .a-nav_item:first-child {
+          font-size: 20px; }
+        /* line 16, _a-nav.scss */
+        .a-nav .a-nav_item:nth-child(9) {
+          font-size: 18px; }
+        /* line 17, _a-nav.scss */
+        .a-nav .a-nav_item:nth-child(10) {
+          font-size: 18px; }
+        /* line 18, _a-nav.scss */
+        .a-nav .a-nav_item:hover {
+          opacity: .65; } }
+
+/*# sourceMappingURL=main.css.map */
