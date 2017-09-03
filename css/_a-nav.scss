@@ -4,17 +4,22 @@
   align-items: center;
   margin: 0 auto;
   max-width: 978px;
+  padding: 0 20px;
   .a-nav_item {
     color: #fff;
     font-size: 14px;
     text-decoration: none;
     line-height: 48px;
     padding: 0 10px;
+    background-repeat: no-repeat;
+    height: 48px;
+    &:first-child {background-image: url('../icons/apple/image_small.svg');}
+    &:nth-child(9) {background-image: url('../icons/magnifier/image_small.svg');}
+    &:nth-child(10) {background-image: url('../icons/bag/image_small.svg');}
     @media only screen and (min-width: 765.01px) {
-      height: 48px;
-      &:first-child {font-size: 20px;}
-      &:nth-child(9) {font-size: 18px;}
-      &:nth-child(10) {font-size: 18px;}
+      &:first-child {background-image: url('../icons/apple/image_large.svg');}
+      &:nth-child(9) {background-image: url('../icons/magnifier/image_large.svg');}
+      &:nth-child(10) {background-image: url('../icons/bag/image_large.svg');}
       &:hover {
         opacity: .65;
         }
