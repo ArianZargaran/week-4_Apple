@@ -1,7 +1,12 @@
-/* line 4, main.scss */
-* {
+/* line 2, main.scss */
+*, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+
+/* line 5, main.scss */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 /* line 1, _a-header.scss */
 .a-header {
@@ -26,40 +31,39 @@
   .a-nav .a-nav_item {
     display: none;
     color: #fff;
-    font-size: 14px;
     text-decoration: none;
     line-height: 48px;
     padding: 0 10px;
     background-repeat: no-repeat;
     height: 48px; }
-    /* line 17, _a-nav.scss */
+    /* line 16, _a-nav.scss */
     .a-nav .a-nav_item:first-child {
       display: block; }
-    /* line 18, _a-nav.scss */
+    /* line 17, _a-nav.scss */
     .a-nav .a-nav_item:nth-child(2) {
       display: inline;
       background-image: url("../icons/apple/image_small.svg"); }
-    /* line 19, _a-nav.scss */
+    /* line 18, _a-nav.scss */
     .a-nav .a-nav_item:nth-child(10) {
       display: inline;
       background-image: url("../icons/bag/image_small.svg"); }
-    /* line 20, _a-nav.scss */
+    /* line 19, _a-nav.scss */
     .a-nav .a-nav_item:hover {
       opacity: .65; }
     @media only screen and (min-width: 765.01px) {
       /* line 8, _a-nav.scss */
       .a-nav .a-nav_item {
         display: block; }
-        /* line 25, _a-nav.scss */
+        /* line 24, _a-nav.scss */
         .a-nav .a-nav_item:first-child {
           display: none; }
-        /* line 26, _a-nav.scss */
+        /* line 25, _a-nav.scss */
         .a-nav .a-nav_item:nth-child(2) {
           background-image: url("../icons/apple/image_large.svg"); }
-        /* line 27, _a-nav.scss */
+        /* line 26, _a-nav.scss */
         .a-nav .a-nav_item:nth-child(10) {
           background-image: url("../icons/magnifier/image_large.svg"); }
-        /* line 28, _a-nav.scss */
+        /* line 27, _a-nav.scss */
         .a-nav .a-nav_item:nth-child(11) {
           background-image: url("../icons/bag/image_large.svg"); } }
 

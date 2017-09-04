@@ -1,8 +1,10 @@
 @charset "UTF-8";
-
-
-* {
+*, *::after, *::before {
   box-sizing: border-box;
+}
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @import "a-header";
