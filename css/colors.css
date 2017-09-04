@@ -1,0 +1,8 @@
+--primary: #000;
+--secondary: #fff;
+
+h1 {
+  color: var(--primary);
+}
+
+/*review this stylesheet*/

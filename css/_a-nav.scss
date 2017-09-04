@@ -4,8 +4,9 @@
   align-items: center;
   margin: 0 auto;
   max-width: 978px;
-  padding: 0 20px;
+  padding: 0 12px;
   .a-nav_item {
+    display: none;
     color: #fff;
     font-size: 14px;
     text-decoration: none;
@@ -13,16 +14,18 @@
     padding: 0 10px;
     background-repeat: no-repeat;
     height: 48px;
-    &:first-child {background-image: url('../icons/apple/image_small.svg');}
-    &:nth-child(9) {background-image: url('../icons/magnifier/image_small.svg');}
-    &:nth-child(10) {background-image: url('../icons/bag/image_small.svg');}
+    &:first-child {display: block;}
+    &:nth-child(2) {display: inline; background-image: url('../icons/apple/image_small.svg');}
+    &:nth-child(10) {display: inline; background-image: url('../icons/bag/image_small.svg');}
+    &:hover {
+      opacity: .65;
+      }
     @media only screen and (min-width: 765.01px) {
-      &:first-child {background-image: url('../icons/apple/image_large.svg');}
-      &:nth-child(9) {background-image: url('../icons/magnifier/image_large.svg');}
-      &:nth-child(10) {background-image: url('../icons/bag/image_large.svg');}
-      &:hover {
-        opacity: .65;
-        }
+      display: block;
+      &:first-child { display: none;}
+      &:nth-child(2) {background-image: url('../icons/apple/image_large.svg');}
+      &:nth-child(10) {background-image: url('../icons/magnifier/image_large.svg');}
+      &:nth-child(11) {background-image: url('../icons/bag/image_large.svg');}
     }
   }
 }
