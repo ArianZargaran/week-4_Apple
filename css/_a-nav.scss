@@ -19,7 +19,7 @@
     &:hover {
       opacity: .65;
       }
-    @media only screen and (min-width: 765.01px) {
+    @include MQ(M) {
       display: block;
       &:first-child { display: none;}
       &:nth-child(2) {background-image: url('../icons/apple/image_large.svg');}

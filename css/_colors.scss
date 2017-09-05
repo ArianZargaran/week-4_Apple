@@ -1,0 +1,15 @@
+:root {
+  --header: rgba(0,0,0,0.8);
+  --primary: grey;
+  --secondary: #fff;
+}
+
+header {
+  background-color: var(--header);
+}
+
+h1 {
+  color: var(--primary);
+}
+
+/*review this stylesheet*/
