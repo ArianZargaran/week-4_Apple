@@ -1,0 +1,13 @@
+:root {
+  --navTypeface: "SF Pro Text", Arial, sans-serif;
+}
+
+html {font-size: 62.5%;} /* $rembase = 10px */
+
+body {font-size: 1.0rem; /* 10 ÷ $rembase */}
+
+header nav {
+  font-family: var(--navTypeface);
+  font-size: 1.4rem;
+  line-height: 48px;
+}
